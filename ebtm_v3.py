@@ -5,7 +5,7 @@ import time
 
 st.set_page_config(page_title="模板匹配", page_icon="random")
 
-st.title("模板匹配")
+st.title("模板匹配，https://github.com/klemonk/ebtmm")
 
 uploaded_file = st.file_uploader("请选择一张图片作为模板图片", type=["jpg", "png", 'jpeg'])
 if uploaded_file is not None:
